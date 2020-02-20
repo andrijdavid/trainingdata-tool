@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/buildpack-deps:cosmic
+      - image: circleci/buildpack-deps:eoan
     steps:
       - checkout
       - run:
